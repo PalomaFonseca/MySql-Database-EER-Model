@@ -1,0 +1,38 @@
+Ferramentas - DBdesigner, DrawIo, Workbench
+
+1 - Levantamento de requisitos
+
+Projeto Principal - Ecommerce
+
+ Escopo - Venda de produtos
+ Entidades:
+ Cliente, Produto, Estoque, Pedido, Fornecedor
+
+ Produto:
+ Produtos vendidos por uma única plataforma, podem ter vendedores distintos
+ Cada produto tem seu fornecedor
+ Um ou mais produtos podem compor um pedido
+
+ Cliente:
+ Cliente pode se cadastrar com CPF e CNPJ
+ Endereço determina valor frete
+ Cliente pode comprar mais de um pedido, há um período de carência para devolução
+
+ Pedido:
+ Pedidos são criados por clientes e possuem informações de compra, endereço e status de entrega
+ Um produto ou mais compoem o pedido
+ Pedido pode ser cancelado
+
+ Fornecedor e Estoque
+
+ Pontos de melhora:
+ Cliente pode ser PJ e PF mas não os dois
+ Forma de pagamento pode ter mais de uma(informações de pagamento)
+ Entrega possui status e código de rastreio
+
+ Ao meu ver ficaria assim:
+ O cliente X pode ser pessoa física ou jurídica, dentro de uma plataforma Y, realizará um ou mais pedidos que poderão ter um ou mais produtos que estarão 
+ relacionados a um ou mais vendedores que terão um ou mais fornecedores que farão a validação quanto ao produto em estoque. Se existir produto em estoque a plataforma
+ incluirá o produto no pedido onde, poderão existir um ou mais produtos. Baseado em sua escolha para endereço de entrega, haverá um cálculo onde o frete será medido com 
+ base neste endereço. Após devidas validações o cliente será direcionado a página de pagamento onde poderá pagar via pix, boleto ou cartão de crédito. Esse cliente 
+ poderá consultar o status da entrega e código de rastreio ao acessar a plataforma

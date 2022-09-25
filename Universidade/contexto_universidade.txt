@@ -1,0 +1,36 @@
+Ferramentas - DBdesigner, DrawIo, Workbench
+
+1 - Levantamento de requisitos
+
+Projeto 2 - Universidade
+
+ Escopo: Ensino
+ Entidades: 
+ Curso, Departamento, Professor, Aluno e Disciplina
+ 
+ Alunos:
+ Alunos podem estar matriculados em mais de um curso(graduação)
+ Alunos podem fazer cursos extras externa e internamente para contar como horas complementares
+ Sem restrição quanto ao número de matérias desde que não ocorra sobreposição de horário
+ Alunos são submetidos a duas provas por semestre para cada disciplina
+
+ Disciplinas:
+ Cada disciplina tem um professor, restrição: disciplina ofertada apenas por este professor
+ Algumas disciplinas tem pré-requisitos. Mesmo pré-requisito pode ser associado a mais de uma disciplina(curso)
+ Disciplinas podem ser comuns a cursos distintos
+ Ciclo de vida da disciplina é semestral
+
+ Professores:
+ Professores que ministram as disciplinas estão associados a coordenação do seu respectivo curso
+
+Perguntas:
+
+Quais informações de aluno e professor guardar?
+Qual a média para aprovação?
+Haverá restrições ou diferente visões?
+
+IMPORTANTE
+Relacionamento M<->N gera uma nova entidade
+
+
+___________________________________________________________________________________

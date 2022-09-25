@@ -1,0 +1,22 @@
+Ferramentas - DBdesigner, DrawIo, Workbench
+
+1 - Levantamento de requisitos
+
+Projeto 1 - Ordem de Serviço
+
+Ordem de serviço
+ Dentro de uma empresa os clientes demandam ao helpdesk algumas ações
+ Essas ações são convertidas em uma ordem de serviço
+
+Contexto:
+ Clientes realizam um pedido
+ Pedido é convertido em ordem de serviço caso possa ser realizado
+ O técnico executa a ordem de serviço. Após sua finalização, a mesma é arquivada
+
+ Entidades:
+ Cliente, Responsável, Pedido e Ordem de serviço
+ 
+Relacionamentos
+ Solicita, Analisa, Executa, Arquiva
+
+___________________________________________________________________________________

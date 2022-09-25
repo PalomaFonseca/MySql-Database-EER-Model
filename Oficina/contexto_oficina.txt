@@ -1,0 +1,28 @@
+Ferramentas - DBdesigner, DrawIo, Workbench
+
+1 - Levantamento de requisitos
+
+ Oficina - Narrativa
+ Sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica
+ Clientes levam veículos para conserto ou revisão periódica
+ Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega
+ A partir da OS, calcula-se o valor do serviço, consultando uma tabela de referência de mão-de-obra
+ O valor de cada peça também irá compor a OS
+ O cliente autoriza a execução dos serviços
+ A mesma equipe avalia e executa os serviços
+ Os mecânicos possuem código, nome, endereço e especialidade
+ Casa OS possui nº, data de emissão, um valor, status e uma data para conclusão dos trabalhos
+ Uma OS pode ser composta por vários serviços e um mesmo serviço pode estar contido em mais de uma OS
+ Uma OS pode ter vários tipos de peça e uma peça pode estar presente em mais de uma OS
+ 
+ Construindo um Esquema Conceitual para Banco De dados
+
+ Entidades: Cliente, Veículo, Equipe, Mecânico, Serviço, Peças, Ordem de Serviço
+
+ OBS:
+ Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega
+ - Não é especificado se essa equipe de mecânicos já é pré-formada ou se pode variar a depender do caso, foi levado em conta que é pré-formada
+ 
+ A partir da OS, calcula-se o valor do serviço
+ O cliente autoriza a execução dos serviços
+ - Pode ser resolvido pela aplicação
