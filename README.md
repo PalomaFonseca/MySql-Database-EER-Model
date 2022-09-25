@@ -41,5 +41,6 @@ Cada OS possui: n°, data de emissão, um valor, status e uma data para conclus�
 ________________________________________________________________________________________________________________________________________________
 
 Adendos: 
+
             - Ordem_servico e Universidade são projetos replicados para fundamentação do conhecimento.
             - Alguns projetos possuem arquivos .txt com algumas considerações.
